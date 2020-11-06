@@ -11,6 +11,7 @@ namespace SimpleTodo.Controllers
             //put items into model
 
             //render view using model
+            return View();
         }
     }
 }
