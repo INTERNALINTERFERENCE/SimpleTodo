@@ -8,6 +8,6 @@ namespace SimpleTodo.Models
 {
     public class TodoViewModel
     {
-        public List<TodoItem> Items { get; set; }
+        public TodoItem[] Items { get; set; }
     }
 }
